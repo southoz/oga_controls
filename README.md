@@ -7,14 +7,14 @@ libevdev-dev
 
 ### Build
 ```
-git clone https://github.com/christianhaitian/oga_controls.git -b universal
+git clone https://github.com/southoz/oga_controls.git -b universal
 cd oga_controls
 make all
 ```
 # Howto
 Launch with `sudo ./oga_controls your-program your-rk3326-device`.  Ex. `sudo ./oga_controls bgdi oga`
 
-Allowed rk3326-device values = anbernic, chi, oga, ogs, rk2020
+Allowed rk3326-device values = anbernic, chi, oga, oga1, ogs, rk2020 and rgb10max
 
 The **your-program** field is to provide support for force quitting a running app using assigned hotkeys.  For instance, using the minus key + start will force quit **your-program** on the rgb10.
 
